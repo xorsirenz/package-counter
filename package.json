@@ -14,7 +14,6 @@
     "extension.js",
     "metadata.json",
     "prefs.js",
-    "icons",
     "schemas"
   ],
   "scripts": {
