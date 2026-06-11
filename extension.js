@@ -7,7 +7,7 @@ import GObject from 'gi://GObject';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 
-const SETTINGS_SCHEMA = 'org.gnome.shell.extensions.package-updates';
+const SETTINGS_SCHEMA = 'org.gnome.shell.extensions.package-counter';
 
 const UpdateIndicator = GObject.registerClass(
     class UpdateIndicator extends PanelMenu.Button {
