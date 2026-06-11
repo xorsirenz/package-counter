@@ -13,7 +13,9 @@
   "files": [
     "extension.js",
     "metadata.json",
-    "icons"
+    "prefs.js",
+    "icons",
+    "schemas"
   ],
   "scripts": {
     "build": "glib-compile-schemas schemas/",
