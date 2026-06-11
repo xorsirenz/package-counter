@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.package-updates" path="/org/gnome/shell/extensions/package-updates/">
+    <key name="check-interval" type="i">
+      <default>300</default>
+      <summary>Update check interval</summary>
+      <description>How often to check for package updates (seconds)</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,8 @@
+{
+  "uuid": "package-counter@xorsirenz.dev",
+  "name": "Package Update Counter",
+  "description": "Shows number of package updates in the top panel",
+  "url": "https://github.com/xorsirenz/package-counter",
+  "shell-version": ["50"],
+  "version": 1
+}
