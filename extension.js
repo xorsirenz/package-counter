@@ -52,8 +52,9 @@ const UpdateIndicator = GObject.registerClass(
             this.add_child(this._box);
 
 
-            this.connect('button-release-event', () => {
+            this.connect('button-press-event', () => {
                 this._lastUpdatedAt = 0;
+                this._label.set_text('^');
                 this._updateCount();
             });
         }
@@ -282,7 +283,7 @@ export default class PackageUpdatesExtension {
         indicator = new UpdateIndicator();
 
         Main.panel.addToStatusArea(
-            'package-updates',
+            'package-counter',
             indicator,
             1,
             'right'

@@ -3,7 +3,7 @@ import Adw from 'gi://Adw';
 import Gio from 'gi://Gio';
 import { ExtensionPreferences } from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
-const SETTINGS_SCHEMA = 'org.gnome.shell.extensions.package-updates';
+const SETTINGS_SCHEMA = 'org.gnome.shell.extensions.package-counter';
 
 export default class PackageUpdatesPrefs extends ExtensionPreferences {
     fillPreferencesWindow(window) {

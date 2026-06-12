@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.package-updates" path="/org/gnome/shell/extensions/package-updates/">
+  <schema id="org.gnome.shell.extensions.package-counter" path="/org/gnome/shell/extensions/package-counter/">
     <key name="check-interval" type="i">
       <default>300</default>
       <summary>Update check interval</summary>
