@@ -1,6 +1,8 @@
 # package-counter
 GNOME shell extension that displays the number of package updates
 
+![](https://github.com/xorsirenz/package-counter/blob/main/assets/image-01.png?raw=true)
+
 #### current package managers supported:
 - dnf
 - apt
